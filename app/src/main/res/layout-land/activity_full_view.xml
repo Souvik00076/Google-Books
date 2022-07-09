@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/books_info"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ifo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/book_info"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/title_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ifo"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/auth1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_id"
+            android:padding="10dp"
+            android:text="@string/author_n"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/author_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_id"
+            android:layout_toEndOf="@id/auth1"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/pub1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/author_id"
+            android:padding="10dp"
+            android:text="@string/pub_n"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pub_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/author_id"
+            android:layout_toEndOf="@id/pub1"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/date_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pub_id"
+            android:padding="10dp"
+            android:text="@string/dn"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pub_id"
+            android:layout_toEndOf="@id/date_id1"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_id1"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/visit_button_color"
+            android:text="@string/v_w" />
+
+        <TextView
+            android:id="@+id/info2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/b_id"
+            android:layout_marginTop="10dp"
+            android:background="@color/app_color"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/descp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descp_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info2"
+            android:layout_marginTop="15dp"
+            android:background="@color/books_info"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+</ScrollView>

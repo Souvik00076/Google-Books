@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Google Books</string>
+    <string name="search_hint">Search Books Here</string>
+    <string name="search_btn">Search</string>
+    <string name="author_n">Author :</string>
+    <string name="pub_n">Publisher :</string>
+    <string name="dn">Date :</string>
+    <string name="v_w">Visit Website</string>
+    <string name="descp">Description</string>
+    <string name="book_info">Book Information Page</string>
+    <string name="no_data">No Data To Show </string>
+    <string-array name="spinner_items">
+        <item>By Title</item>
+        <item>By Author</item>
+        <item>By Publisher</item>
+        <item>By Category</item>
+    </string-array>
+    <string name="item_filter">Filter :</string>
+
+</resources>
