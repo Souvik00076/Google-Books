@@ -1,6 +1,3 @@
-# Google-Books
-This app uses google books api to fetch books data and shows it to the user based on the book title,author name and book type
-
 
 # output :
 ![Screenshot_2022-11-09-20-43-58-936_com example googlebooks](https://user-images.githubusercontent.com/69939928/200868519-57e6d614-7f59-45b5-b85d-d6d1e3a50617.jpg)
